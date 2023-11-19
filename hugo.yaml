@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
-languageCode: "en-us"
-title: "Hugo Profile"
+languageCode: "de-de"
+title: "Yvonne Weiss"
 theme: hugo-profile
 
 outputs:
@@ -53,7 +53,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: Yvonne Weiss
+  title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
@@ -76,7 +76,7 @@ params:
 
   theme:
     disableThemeToggle: true
-    defaultTheme: "dark" # dark
+    defaultTheme: "dark" # light
 
   font:
     fontSize: 1rem # default: 1rem
@@ -105,10 +105,13 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Yvonne Weiss" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
+    # stickyNavBar:
+    #   enable : true
+    #   showOnScrollUp : true
     menus:
       disableAbout: false
       disableExperience: false
@@ -124,10 +127,10 @@ params:
     title: "Yvonne Weiss"
     subtitle: "I build things for the web"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: static/images/yvi.jpg
+    image: /images/yvi.jpg
     bottomImage:
       enable: true
-      roundImage: true # Make hero image circular | default false
+    roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
@@ -138,7 +141,7 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://example.com
-        - icon: fab fa-twitter
+        - icon: fab fa-x-twitter
           url: https://example.com
       customIcons:
         - icon: /fav.png
