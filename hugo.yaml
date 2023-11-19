@@ -2,6 +2,9 @@ baseURL: "https://mxab1.github.io/yvis-website/"
 languageCode: "de-de"
 title: "Yvonne Weiss"
 theme: hugo-profile
+relativeURLS: true
+canonifyURLs: true
+
 
 outputs:
   home:
